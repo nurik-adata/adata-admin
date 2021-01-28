@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admin-panel</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="login">
+            <img src="images/logo.svg" alt="Logo"/>
+            <h1>Вход</h1>
+            <form method="POST">
+                <input type="text" name="login" placeholder="Логин" required = "required"/>
+                <div class="container">
+                <input type="password" id="password"  name="password" placeholder="Пароль" required = "required"/>
+                <i class="far fa-eye" id="togglePassword"></i>
+                </div>
+                <button type="submit" id="password-field" class="btn btn-primary btn-block btn-large">ВОЙТИ</button>
+
+            </form>
+        </div>
+        <script src="js/main.js"></script>
+        
+    </body>
+
+</html>
