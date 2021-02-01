@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<head lang="en">
+<html lang="en">
     <head>
         <title>Verification</title>
         <link rel="stylesheet" type="text/css" href="css/main.css"> 
 
 
     </head>
-    <body class="verification">
+    <body class="verification" >
         <h1>Код пароль</h1>
+        <form method="POST" >
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="1-d"/>
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="2-d"/>
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="2-d"/>
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="3-d"/>
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="4-d"/>
+            <input class="inputs" id="numeric_input" type="password" maxlength="1"  size="1" min="0" max="9" pattern="[0-9]{1}" name="5-d"/>
+            
+            </form>
 
+            <script src="js/verification.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+            <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </body>
-
-</head>
+</html>
