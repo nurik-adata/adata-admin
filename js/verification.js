@@ -14,7 +14,20 @@ container.onkeyup = function(e) {
             }
         }
     }
+    else if (myLength === 0) {
+        var previous = target;
+        while (previous = previous.previousElementSibling) {
+            if (previous == null)
+                break;
+            if (previous.tagName.toLowerCase() === "input") {
+                previous.focus();
+                break;
+            }
+        }
+    }
+    
 }
+
 document
   .getElementById("numeric_input")
   .addEventListener("keypress", function(evt) {
@@ -22,5 +35,4 @@ document
     evt.preventDefault();
   }
 });
-
 
