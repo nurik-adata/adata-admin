@@ -261,8 +261,5 @@ thead{
   height: 50%;
   background:#FFFFFF;
   border-radius: 10px;
-  margin-left: auto;
-  margin-top: 5px;
-  margin-bottom: auto;
-  margin-right: 85px;
+  margin: 5px 85px auto auto;
 }
