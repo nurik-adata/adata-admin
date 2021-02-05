@@ -224,3 +224,45 @@ a{
   margin: 30px auto 0 auto;
   
 }
+
+.key-table{
+  width: 100%;
+
+}
+th{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#25476A;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+  outline: none;
+  
+}
+tr{
+
+  background-color:#25476A;
+  border-radius: 5px 5px 0px 0px;
+  
+
+}
+thead{
+  background-color:#25476A;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.change-table{
+  display: flex;
+  width: 10%;
+  height: 50%;
+  background:#FFFFFF;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: auto;
+  margin-right: 85px;
+}
