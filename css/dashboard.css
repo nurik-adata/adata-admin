@@ -208,10 +208,10 @@ a{
 .main-table{
   width: 88%;
   background-color: #FFFFFF;
-  height: 50%;
+  height: 80%;
   display: flex;
   border-radius: 10px;
   margin-bottom: 40px;
-  margin: auto;
+  margin: 30px auto 0 auto;
   
 }
