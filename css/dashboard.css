@@ -32,6 +32,8 @@
   .main {
     grid-area: main;
     background-color: #EFF2F8;
+    display: flex;
+
   }
 
   
@@ -173,4 +175,28 @@ a{
   
 } */
 ::placeholder{
+}
+
+.title-main{
+  margin: auto;
+  width: 88%;
+  height: 8%;
+  background-color: #FFFFFF;
+  margin-top: 45px;
+  border-radius: 10px;
+}
+
+.add-button{
+  display: inline-block;
+  background-color:#25476A ;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 29px;
+  width: 93px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  margin: 0 50px 5px 0 ;
+
+
 }
