@@ -124,6 +124,7 @@
 }
 .avatar-name{
   margin-bottom: 20px;
+  line-height: 1em;
 
 }
 
@@ -334,6 +335,14 @@ thead{
   position: relative;
 }
 
+.change-table a {
+  color: #25476A;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+}
 .show{
   display: block;
 }
@@ -345,6 +354,11 @@ thead{
   overflow: auto;
   border: 1px solid #ddd;
   z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
 
