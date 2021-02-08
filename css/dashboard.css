@@ -1,5 +1,6 @@
 
 
+
 .grid-container {
     display: grid;
     grid-template-columns: 240px 1fr;
@@ -88,12 +89,12 @@
     border-width: -1px;
     outline: none;
     font-size: 100%;
-    padding: px;
     padding: 5px;
     width: 80%;
     background-image: url(loupe.svg);
     background-repeat: no-repeat;
-    text-indent: 20px;
+    background-position: left 10px center ;
+    text-indent: 40px;
 
     
 }
@@ -330,10 +331,20 @@ thead{
   height: 50%;
   background:#FFFFFF;
   border-radius: 10px;
-  margin: 10px 59px auto auto;
   position: relative;
 }
 
-
+.show{
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
 
 

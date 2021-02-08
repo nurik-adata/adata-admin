@@ -11,11 +11,10 @@
             <header class="header">
                 <div class="header_left-side">
                     <div id="search-box">
-                        <div class="input">
-                            <input class="input" type="text" placeholder="Поиск">
-                        </div>
+                            <input class="input" onclick="hideIcon(this);" type="text" placeholder="Поиск">
+                        
                         <div class="image">
-                            <img class = "icon-filter"  src="images/filter.svg" alt="">
+                            <img class = "icon-filter" onclick="filterFunction()" src="images/filter.svg" alt="">
                        </div>  
                     </div>    
                 </div>
@@ -79,8 +78,14 @@
             </main>
             <footer class="footer">
                 <span class="change-table">
+
                 </span>
             </footer></div>
+
+            <div id="filterFunction" class="dropdown-content">
+                Filters of Search Box
+
+            </div>
         <script src="js/dashboard.js"></script>
     </body>    
 </html>

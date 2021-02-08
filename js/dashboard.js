@@ -1,10 +1,8 @@
-// function myFunction(e) {
-//     var elems = document.querySelectorAll(".active");
-//     [].forEach.call(elems, function(el) {
-//       el.classList.remove("active");
-//     });
-//     e.target.className = "active";
-//   }
+
 function hideIcon(self) {
     self.style.backgroundImage = 'none';
+}
+
+function filterFunction(){
+    document.getElementById("filterFunction").classList.toggle("show")
 }
