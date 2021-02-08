@@ -327,38 +327,31 @@ thead{
 }
 
 .change-table{
-  display: inline-block;
-  width: 10%;
-  height: 50%;
+  display: flex;
+  width: 11%;
+  height: 60%;
   background:#FFFFFF;
   border-radius: 10px;
-  position: relative;
+  margin: auto 85px auto auto;
+
 }
 
 .change-table a {
+  display: flex;
   color: #25476A;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   text-align: center;
   margin: auto;
-}
-.show{
-  display: block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
+  margin-left: 15px;
+  line-height: 2.5em;
+  float: right;
 }
 
-.dropdown {
+.change-table img{
   position: relative;
-  display: inline-block;
+  top: 18%;
+  margin-left: 10px;
 }
-
 
