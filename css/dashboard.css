@@ -115,7 +115,7 @@
   padding: 25px;
   width: 40%;
   vertical-align: middle;
-  height: 100%;
+  height: 80%;
 }
 
 
@@ -124,8 +124,13 @@
 }
 .avatar-name{
   margin-bottom: 20px;
-  line-height: 1em;
 
+}
+.avatar-name a{
+  line-height: normal;
+  color: black;
+  font-size: 14px;
+  line-height: 2em;
 }
 
 
@@ -280,21 +285,18 @@ color: rgba(44, 62, 80, 0.7);
   border-radius: 10px;
   margin-bottom: 40px;
   margin: 30px auto 0 auto;
-  
+  border-collapse: collapse;
 }
 
 .key-table{
   width: 100%;
-  background-color:#25476A;
-  border-radius: 5px 5px 0px 0px;
+  border-spacing: 0;
 }
 
 .filter-table{
-  display: block;
-  line-height: 100px;
-  background-color:#F5F5F5;
-  width: 100%;
-  height: 40px;
+  background-color: #e5e5e5!important;
+  margin: auto;
+
 }
 th{
   font-family: Open Sans;
@@ -304,13 +306,20 @@ th{
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
-  background-color:#25476A;
-  border-radius: 5px 5px 0px 0px;
-
-  
-  
+  background-color:#25476A;  
 }
-tr{
+ th a {
+   float: right;
+ }
+ 
+.first-child {
+  border-radius: 5px 0 0 0 ;
+}
+.last-child{
+  border-radius: 0 5px 0 0 ;
+
+}
+.first-row{
 
   background-color:#25476A;
   border: none;
@@ -322,8 +331,7 @@ thead{
   background-color:#25476A;
   border: none;
   outline: none;
-  width: 10%;
-
+  
 }
 
 .change-table{
@@ -354,4 +362,5 @@ thead{
   top: 18%;
   margin-left: 10px;
 }
+
 
